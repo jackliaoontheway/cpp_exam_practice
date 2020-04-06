@@ -5,7 +5,7 @@ using namespace std;
 template <class T> void change(T &i, T &j);
 
 int main() {
-	int a ,b;
+	int a ,b; 
 	cin >> a >> b;
 	change(a,b);
 	cout << a << b;
